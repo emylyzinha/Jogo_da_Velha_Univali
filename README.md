@@ -7,24 +7,29 @@
 
 2. **Interface Interativa:**  
    - O jogo apresenta um tabuleiro visual onde o jogador escolhe suas jogadas.  
-   - Informações como quem começa jogando e quem venceu são exibidas.  
+   - Informações como quem joga e quem venceu são exibidas.  
 
 3. **Lógica de Vitória:**  
-   - Verifica automaticamente as condições de vitória (linhas, colunas e diagonais) ou empate após cada jogada.  
-
-4. **Reinício de Jogo:**  
-   - Após o término de uma partida, o jogador pode optar por começar uma nova rodada.  
+   - Verifica automaticamente as condições de vitória (linhas, colunas e diagonais) ou empate após cada jogada. 
 
 ---
 
 ### Tecnologias Utilizadas  
 - **Linguagem:**  
-  - Implementado em **C++** utilizando conceitos de **Programação Orientada a Objetos (POO)**.  
-
-- **Principais Conceitos Aplicados:**  
-  - Classes e objetos para modelar o tabuleiro e as regras do jogo.  
-  - Métodos encapsulados para validação de jogadas e verificação de resultados.  
-  - Estruturas condicionais e loops para implementar a lógica do jogo e turnos.  
+  - Implementado em **C++** utilizando conceitos de **Programação Orientada a Objetos (POO)**.
+     
+- **Arquitetura:**
+   - Estruturado com o padrão Model-View-Controller (MVC) para separar lógica de negócios, interface e controle.
+     
+- **Principais Conceitos Aplicados:**
+   - **Model:** Gerenciamento do estado do jogo e das regras, como validação de jogadas e verificação de condições de vitória.
+   - **View:** Exibição do tabuleiro e mensagens para o jogador.
+   - **Controller:** Controle da interação entre o jogador, o computador e o modelo do jogo.
+     
+- **Recursos de POO:**
+   - Classes e objetos para modelar o tabuleiro e as regras do jogo.
+   - Métodos encapsulados para validação de jogadas e verificação de resultados.
+   - Estruturas condicionais e loops para implementar a lógica do jogo e turnos.  
 
 ---
 
